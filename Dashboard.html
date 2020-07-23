@@ -9,8 +9,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/6ce66d03e2.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
     <title>Moyo Dashboard</title>
   </head>
   <body>
@@ -20,33 +19,25 @@
           <a href="index.html">Moyoweb</a>
         </div>
         <div class="header-links">
-          <div class="chip">
-            <img src="img/coder.jpg" alt="Person" width="96" height="96">
-          </div>
-          <div><p>Dr Who</p></div>
-        
-          <!-- <a href="./signup.html">Sign Up</a>
-          <a href="./login.html">Log In</a> -->
+
+          <i class="fa fa-bars" aria-hidden="true"></i>
+
         </div>
       </header>
       <div class="row">
          <div class="col-sm-3 side-prof">
           <div class="profile-side">
-            <ul>
-            <br>
-            <br>
-            <li>Patients List</li>
-            <li>Contact Info</li>
-            <li>Patients Request</li>
-            <br>
-            <br>
             
-          </ul>
+          <div class="chip">
+            <img src="img/coder.jpg" alt="Person" width="96" height="96">
+          </div>
+          <div><p>Dr Who</p></div>
         </div>
         <div class="settings">
           <ul>
             <br>
             <br>
+            <li>My Patient Lists</li>
             <li>Settings</li>
             <li>Privacy Policy</li>
             <li>T & C</li>
@@ -55,50 +46,60 @@
           </ul>
         </div>
           </div>
-
+            <!-- MAIN SECTION START -->
         <div class="col-sm-9">
-          <div class="profile ml-4">
-            <p>Patient List</p>
-              <div class="chip-1">
+          <div class="profile ml-5 mt-3">
+                <div class="chip-1">
                 <img src="img/coder.jpg" alt="Person" width="96" height="96">
-                <h5>Dr Who</h5> 
-                <p>Md Cardeologist M.E.H</p>
+                <p class="">Dr Who of Where</p>
               
               </div>
+              
               <div class="container">
                  <div class="d-md-flex justify-content-between">
                    <div class="Name">
-                     <p>Name</p>
-                     <p>Email</p>
+                     <p>Location</p>
                    </div>
 
                       
                 </div>
                 <form action="">
+                  
                   <div class="input-append mb-3">
+                     <label for="fname">Town/City:</label>
                     <input name="search" id="search"/>
-                    <button class="btn">Records</button>
+                    <button class="btn">Update</button>
                 </div>
                  <div class="input-append mb-3">
+                    <label for="fname">Hospital / Clinic:</label>
                     <input name="search" id="search"/>
-                    <button class="btn">Records</button>
+                    <button class="btn">Update</button>
                 </div>
-                 <div class="input-append mb-3">
+                <div class="Name">
+                     <p>Contact Information</p>
+                   </div>
+            
+                <div class="input-append mb-3">
+                    <label for="fname">Email:</label>
                     <input name="search" id="search"/>
-                    <button class="btn">Records</button>
+                    <button class="btn">Update</button>
                 </div>
-                 <div class="input-append mb-3">
+                <div class="input-append mb-3">
+                    <label for="fname">Phone Number:</label>
                     <input name="search" id="search"/>
-                    <button class="btn">Records</button>
+                    <button class="btn">Update</button>
                 </div>
-                </form>
+                <div class="input-append mb-3">
+                    <label for="fname">Specialisation:</label>
+                    <input name="search" id="search"/>
+                    <button class="btn">Update</button>
+                </div>
+              </form>
               </div>
-        
             </div>
           </div>
         </div>
-       
-      </div>
+       </div>
     
       
       </main> 
